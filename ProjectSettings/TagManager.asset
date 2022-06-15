@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Capsunica
+  - NPC
+  - Enemy
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -11,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -41,9 +45,12 @@ TagManager:
   - name: Background
     uniqueID: 1111954371
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: BG Props
+    uniqueID: 4243542417
     locked: 0
   - name: Terrain
     uniqueID: 1424878115
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
